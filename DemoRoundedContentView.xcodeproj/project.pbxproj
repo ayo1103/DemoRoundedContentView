@@ -65,7 +65,7 @@
 				3B4FF2D31C89ABDF00570A2A /* Info.plist */,
 			);
 			name = DemoRounedContentView;
-			path = TestCornerTableView;
+			path = DemoRoundedContentView;
 			sourceTree = "<group>";
 		};
 		3B4FF2D91C8AA5E300570A2A /* resources */ = {
