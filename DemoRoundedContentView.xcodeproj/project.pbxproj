@@ -41,7 +41,7 @@
 			isa = PBXGroup;
 			children = (
 				3B4FF2D91C8AA5E300570A2A /* resources */,
-				3B4FF2C61C89ABDF00570A2A /* TestCornerTableView */,
+				3B4FF2C61C89ABDF00570A2A /* DemoRounedContentView */,
 				3B4FF2C51C89ABDF00570A2A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,7 +54,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3B4FF2C61C89ABDF00570A2A /* TestCornerTableView */ = {
+		3B4FF2C61C89ABDF00570A2A /* DemoRounedContentView */ = {
 			isa = PBXGroup;
 			children = (
 				3B4FF2C71C89ABDF00570A2A /* AppDelegate.swift */,
@@ -64,6 +64,7 @@
 				3B4FF2D01C89ABDF00570A2A /* LaunchScreen.storyboard */,
 				3B4FF2D31C89ABDF00570A2A /* Info.plist */,
 			);
+			name = DemoRounedContentView;
 			path = TestCornerTableView;
 			sourceTree = "<group>";
 		};
