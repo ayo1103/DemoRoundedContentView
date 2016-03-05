@@ -6,7 +6,7 @@
 
 # 快速 Copy Paste
 原理就是給 UITableView 一個 layer mask  
-重點在於圓角卡片的 Bounds 要用 contentSize 去計算
+重點在於圓角卡片的 Bounds 要用 **contentSize** 去計算
 
 ```swift
 extension UITableView {
