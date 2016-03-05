@@ -4,6 +4,10 @@
 ![Alt Text](https://github.com/ayo1103/DemoRoundedContentView/raw/master/demo_rounded_content.gif)
 
 
+# 快速 Copy Paste
+原理就是給 UITableView 一個 layer mask
+重點在於圓角卡片的 Bounds 要用 contentSize 去計算
+
 ```swift
 extension UITableView {
 
@@ -21,5 +25,14 @@ extension UITableView {
     self.layer.mask = rectShape
   }
 
+}
+```
+
+然後在適當的地方 call 這個 func 即可
+
+```swift
+override func viewDidAppear(animated: Bool) {
+    super.viewDidAppear(animated)
+    myTableView.makeContentRounded(radius: 5)
 }
 ```
