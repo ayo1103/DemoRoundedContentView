@@ -28,7 +28,7 @@ extension UITableView {
 }
 ```
 
-然後在適當的地方 call 這個 func 即可
+然後在適當的地方 call 這個 func 即可  
 
 ```swift
 override func viewDidAppear(animated: Bool) {
